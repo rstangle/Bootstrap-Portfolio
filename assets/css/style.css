@@ -98,9 +98,17 @@ h4 {
 *//*	margin-top: 20px;*/
 }
 
-.col-xs-12 > .img-responsive {
+.thumbnails {
+/* 	position: relative;
+*/ 	float: left;
 	width: 100%;
-}
+	height: auto;
+/*	margin: 15px 20px 15px 0px;*/
+ }
+
+/*.col-xs-12 > .img-responsive {
+	width: 100%;
+}*/
 
 aside {
 /*	float: right;
@@ -136,6 +144,33 @@ aside {
 	border-top: 2pt solid #4aaaa5;
 	text-align: center;
 }
+
+.thumbnail-container {
+	/*position: relative;*/
+	float: left;
+	width: 100%;
+	height: auto;
+	/*margin: 15px 20px 15px 0px;*/
+}
+
+.thumbnail-header {
+	float: left;
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	padding: 10px 10px;
+/*	padding-bottom: 10px;
+*//*	margin: 15px 0px 15px 0px;
+*/ 	background: #4aaaa5;
+ 	height: auto;
+ 	color: white;
+ 	font-weight: normal;
+ 	font-size: 16pt;
+ 	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	clear: both;
+ }
+
 
 a {
 	text-decoration: none;
@@ -205,27 +240,34 @@ li:active {
 	background: #4aaaa5;
 	}
 
-	/*Solution from Stack Overflow*/
+	/*Solution from Stack Overflow to change the hamburger icon to white*/
 	.navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 	}
 
+	/*Solution from Stack Overflow to change the hamburger text to white*/
+	.navbar a {
+	color: white !important;
+	}
 
-/*	header{
-		width: 100%;
-	}*/
+	.thumbnails {
+	margin: 5px auto 30px auto;
+	}
 
-	/*.img-responsive {
-	width: 100%;
-	height: auto;
-	padding: 0px 0px 10px 0px;
-	}*/
-	
-	section{
+	section {
 	margin-bottom: 30px;
 	}
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.thumbnails {
+	margin: 5px auto 30px auto;
+	}
+
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -240,10 +282,25 @@ li:active {
 	section {
 	margin-bottom: 30px;
 	}
+
+	.thumbnails {
+/* 	position: relative;
+*/ 	float: left;
+	width: 100%;
+	height: auto;
+	margin: 15px 0px 15px 0px;
+/*	padding: 0px 15px 0px 0px;
+*/ }
+	
+	.thumbnail-header {
+	bottom: 15px;
+	padding: 0px 10px;
+	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
+/*@media (min-width: @screen-lg-min) { 
 	
 	profile-pic {
 	width: 50px;
@@ -251,7 +308,7 @@ li:active {
 	padding: 0px 0px 10px 0px;
 	float: left;
 	}
- }
+ }*/
 
 /*@media screen and (max-width: 980px) {
 	
