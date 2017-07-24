@@ -12,8 +12,8 @@ body {
 	padding: 25px 30px 50px 30px;
  	background: #4aaaa5;
  	color: white;
-	font-family: 'Rock Salt','Permanent Marker', Georgia, Times, 'Times New Roman', serif;
-	font-size: 30px;
+	font-family: /*'Rock Salt',*/'Unica One', 'Permanent Marker', Georgia, Times, 'Times New Roman', serif;
+/*	font-size: 30px;*/
  }
 
 .navbar-right {
