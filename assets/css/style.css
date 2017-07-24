@@ -81,6 +81,7 @@ h4 {
 	/*font-weight: bold;*/
 	border-bottom: solid #dddddd 1px;
 	padding-bottom: 10px;
+	margin: 15px 10px 0px 10px;
 }
 
 .img-responsive {
@@ -109,11 +110,12 @@ aside {
 }
 
 .connect-icons {
-	float: left;
+/*	float: left;
 	display: inline;
-	width: 55px;
-	height: 55px;
-	margin: 15px 5px;
+*/	width: 100%;
+	height: auto;
+	margin: 15px 0px;
+/*	padding: 5px 5px;*/
 }
 
 .connect-icons:hover {
@@ -253,6 +255,8 @@ li:active {
 	.thumbnails {
 	margin: 5px auto 30px auto;
 	}
+
+
 }
 
 /*****************************************************************************************/
