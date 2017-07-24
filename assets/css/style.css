@@ -8,20 +8,11 @@ body {
 	padding: 100px 0px 125px 0px;
 }
 
-/*header {
-	float: left;
-	padding: 25px 30px 20px 30px;
- 	background: #4aaaa5;
- 	color: white;
-	font-family: 'Raleway', Georgia, Times, 'Times New Roman', serif;
-	font-size: 30px;
- }*/
-
  .navbar-brand {
 	padding: 25px 30px 50px 30px;
  	background: #4aaaa5;
  	color: white;
-	font-family: 'Rock Salt', Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Rock Salt','Permanent Marker', Georgia, Times, 'Times New Roman', serif;
 	font-size: 30px;
  }
 
@@ -71,7 +62,9 @@ h3 {
 	left: 30px;
 	right: 30px;*/
 	padding-bottom: 10px;
-	font-family: 'Rock Salt', 'Slabo 27px', Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Oswald', Georgia, Times, 'Times New Roman', serif;
+	font-size: 24pt;
+/*	font-style: italic;*/
 /*	background: white;
 */	color: #4aaaa5;
 	text-align: left;
@@ -80,7 +73,8 @@ h3 {
 }
 
 h4 {
-	font-family: 'Rock Salt','Slabo 27px', Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Oswald', Georgia, Times, 'Times New Roman', serif;
+	font-size: 16pt;
 	background: white;
 	color: #4aaaa5;
 	text-align: left;
@@ -106,18 +100,10 @@ h4 {
 /*	margin: 15px 20px 15px 0px;*/
  }
 
-/*.col-xs-12 > .img-responsive {
-	width: 100%;
-}*/
 
 aside {
-/*	float: right;
-	position: relative;*/
 	padding: 15px 30px 15px 30px;
-/*	margin: 50px 0px;*/
 	background: #ffffff;
-	/*width: 270px;
-	height: 150px;*/
 	border: solid 1px #cccccc;
 	box-shadow: 3px 3px 10px lightgray;
 }
@@ -135,11 +121,10 @@ aside {
 }
 
 .navbar-fixed-bottom{
+	font-family: 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
 	padding: 20px;
 	background: #777777;
 	color: white;
-	/*width: 100%;
-	height: 50px;*/
 	font-size: 8pt;
 	border-top: 2pt solid #4aaaa5;
 	text-align: center;
@@ -164,10 +149,9 @@ aside {
 */ 	background: #4aaaa5;
  	height: auto;
  	color: white;
- 	font-weight: normal;
  	font-size: 16pt;
  	text-align: center;
-	font-family: 'Rock Salt', 'Slabo 27px', Georgia, Times, 'Times New Roman', serif;
+	font-family: 'Oswald', Georgia, Times, 'Times New Roman', serif;
 	clear: both;
  }
 
@@ -175,13 +159,6 @@ aside {
 	background: tomato;
 }
 
-
-
-/* .form-control textarea {
- 	overflow: hidden;
- 	height: auto;
- }
-*/
 
 a {
 	text-decoration: none;
@@ -221,21 +198,7 @@ li:active {
 	color: #4aaaa5;
 }*/
 
-/*h2 {
-	position: absolute;
-	top: 20px;
-	left: 30px;
-	right: 30px;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	background: white;
-	color: #4aaaa5;
-	text-align: left;
-	font-weight: bold;
-	border-bottom: solid #dddddd 1px;
-}
-
-
-*/
+/************************************************************************************/
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -251,9 +214,6 @@ li:active {
 	background: #4aaaa5;
 	}
 
-/*	.navbar .navbar-header .navbar-toggle .navbar-brand a {
-	color: white !important;
-	}*/
 
 	/*Solution from Stack Overflow to change the hamburger icon to white*/
 	.navbar-default .navbar-toggle .icon-bar {
@@ -271,9 +231,9 @@ li:active {
 	}
 
 	.navbar ul {
-	font-weight: bold;
-	font-family: 'Slabo 27px';
-	letter-spacing: 1px;
+/*	font-weight: bold;*/
+	font-family: 'Open Sans';
+/*	letter-spacing: 1px;*/
 	}
 
 	.thumbnails {
@@ -286,14 +246,16 @@ li:active {
 
 }
 
+/*****************************************************************************************/
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
 	.thumbnails {
 	margin: 5px auto 30px auto;
 	}
-
 }
 
+/*****************************************************************************************/
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -325,64 +287,7 @@ li:active {
 
 }
 
+/*****************************************************************************************/
+
 /* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) { 
-	
-	profile-pic {
-	width: 50px;
-	height: auto;
-	padding: 0px 0px 10px 0px;
-	float: left;
-	}
- }*/
-
-/*@media screen and (max-width: 980px) {
-	
-	.img-responsive {
-	width: 100%;
-	height: auto;
-	padding: 0px 0px 10px 0px;
-	}
-	
-		section {
-		margin-bottom: 30px;
-	}
-}*/
-
-
-
-/*@media screen and (max-width: 768px) {
-	
-	.img-responsive {
-	width: 50%;
-	height: auto;
-	padding: 0px 0px 10px 0px;
-	}
-}
-*/
-
-/*
-@media screen and (max-width: 640px) {
-	
-	body{
-		padding-top: 100px;
-	}
-
-
-	header{
-		width: 100%;
-	}
-
-	.img-responsive {
-	width: 100%;
-	height: auto;
-	padding: 0px 0px 10px 0px;
-	}
-	
-	section{
-		margin-bottom: 30px;
-	}
-
-
-}
-*/
+/*@media (min-width: @screen-lg-min) { }
