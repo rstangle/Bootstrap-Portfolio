@@ -13,8 +13,6 @@ body {
  	background: #4aaaa5;
  	color: white;
 	font-family: /*'Rock Salt',*/'Changa One', 'Patua One', 'Unica One', 'Permanent Marker', Georgia, Times, 'Times New Roman', serif;
-/*	font-size: 30px;*/
-	letter-spacing: 1px;
  }
 
  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
