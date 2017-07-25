@@ -23,6 +23,11 @@
 	
 	<!-- My stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Added to fix mobile menu dropdown not deploying -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -107,6 +112,14 @@
     		&#169; Copyright 2017 Ryan Stangle
  		</div>
 	</nav>
+
+	<script>
+	    $(document).ready(function () {
+	        $(".navbar-toggle").on("click", function () {
+	            $(this).toggleClass("active");
+	            });
+	    });
+	</script>	
 	
 </body>
 </html>
