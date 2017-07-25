@@ -219,7 +219,7 @@ li:active {
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px below) changed from 'above' to 'below' */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	
 	body{
 	padding-top: 100px;
@@ -233,7 +233,7 @@ li:active {
 	/*Solution from Stack Overflow to change the hamburger icon to white*/
 	.navbar-default .navbar-toggle .icon-bar {
     background-color: white;
-    	}
+    }
 
 	#myNavbar {
  	background: rgba(255, 255, 255, 0.7);
